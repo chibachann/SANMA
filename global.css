@@ -1,0 +1,65 @@
+:root {
+    /* grid */
+    /* desktop */
+    --grid-columns-pc: repeat(12, 1fr);
+    --grid-rows-pc: 5vw;
+    /* mobile */
+    --grid-columns-sp: repeat(6, 1fr); 
+    --grid-rows-sp: 15vw;
+    /* tablet */
+    --grid-columns-tb: repeat(12, 1fr); 
+    --grid-rows-tb: 10vw;
+
+
+    /* font-family */
+    /* ゴシック体 */
+    --font-family-gothic: "Helvetica Neue", 
+                            "Segoe UI", 
+                            "Hiragino Kaku Gothic ProN", 
+                            "Hiragino Sans", 
+                            Meiryo, 
+                            sans-serif;
+    /* 明朝体 */
+    --font-family-mincho: "Noto Serif JP", serif;
+    
+    /* color */
+    --color-primary: white;
+    --color-secondary: #111;
+    --color-text: black;
+    --color-text-sub: #9c9c9c;
+    --color-hover-text: gray;
+    --color-box: #7a4171;
+
+    /* font-size */
+    --text-font-size: 1.2em;
+    --text-font-size-sp: 4vw;
+    --text-font-size-tb: 2vw;
+
+}
+
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-family: var(--font-family-mincho);
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
